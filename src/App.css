@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-Gray-500: #6b7082;
+  --color-Gray-100: #e8e9ec;
+  --color-Blue-600: #19a1ae;
+  --color-Blue-400: #41cbd3;
+  --color-Navy-950: #2e3349;
+  --color-Gradient-1: #53ffee;
+  --color-Gradient-2: #0989b4;
+
+  --text-card: "Kumbh Sans", sans-serif;
+}
+
+@utility text-preset-1-bold {
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+
+@utility text-preset-1-regular {
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+@utility text-preset-2-regular {
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+@utility text-preset-3 {
+  font-size: 10px;
+  line-height: 125%;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+@utility card-size-mobile {
+  width: 326px;
+  height: 374px;
+}
+
+@utility card-size-tablet-desktop {
+  width: 350px;
+  height: 374px;
+}
