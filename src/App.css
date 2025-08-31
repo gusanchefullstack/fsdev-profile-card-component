@@ -44,9 +44,18 @@
 @utility card-size-mobile {
   width: 326px;
   height: 374px;
+  border-radius: 15px;
 }
 
 @utility card-size-tablet-desktop {
   width: 350px;
   height: 374px;
+  border-radius: 15px;
+}
+
+@utility social-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
